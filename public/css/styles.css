@@ -1,0 +1,26 @@
+/* Estilo para posicionar el contenedor y el botón flotante */
+.container-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+/* Estilo para hacer el botón redondo */
+.btn-round {
+    border-radius: 50%;
+}
+/* Espacio entre el texto y el botón */
+.text-margin {
+    margin-right: 10px;
+}
+/* Clase para ocultar el texto */
+.hidden {
+    display: none;
+}
+/* Fondo blanco para el texto */
+#whatsapp-text {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
